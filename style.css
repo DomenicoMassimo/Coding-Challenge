@@ -1,0 +1,96 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.contenitore {
+  width: 860px;
+  height: 620px;
+  background-color: rgb(0,0,0,0.5);
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 2%;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 80px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.logo {
+  width: 180px;
+  margin-left: 250px;
+}
+
+header>h1 {
+  color: #7FFF00;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 170px;
+  font-size: 24px;
+}
+
+nav {
+  background-color: #7FFF00;
+  width: auto;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  padding-left: 240px;
+}
+
+button {
+  font-size: 10px;
+}
+
+.monopattino {
+  margin-bottom: 20px;
+}
+
+h5 {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+p::before {
+  content: "\21A6";
+}
+
+div>h6 {
+  font-size: 12px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#carica1 {
+  width: 330px;
+  height: 20px;
+  border-radius: 5%;
+  background-color: orange;
+}
+
+#carica2 {
+  width: 500px;
+  height: 20px;
+  border-radius: 5%;
+  background-color: #00ff00;
+}
+
+#carica3 {
+  width: 150px;
+  height: 20px;
+  border-radius: 5%;
+  background-color: #dc143c;
+}
